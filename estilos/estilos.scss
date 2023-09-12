@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Patua+One&family=Titan+One&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Titan One', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ******************INDEX**************************** */
+/* Header */
+
+.navbar{
+    background-color: white !important;
+    padding: 0 15px 0 15px;
+    display: flex !important;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+}
+.navbar img{
+    height: 40px;
+}
+button{
+    background-color: rgba(0, 0, 0, 0.815) !important;
+}
+ul li a{
+    color: black !important;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5vw;
+    word-spacing: -2px;
+}
+/* Header */
+
+/* Main */
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jumbotron{
+    display: flex;
+    position: relative;
+}
+.jumbotron h1{
+    position: absolute;
+    z-index: 1;
+    margin: 15px;
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Titan One', cursive;
+}
+.jumbotron img{
+    width: 100%;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background: radial-gradient(rgba(46, 46, 46, 0.863), black);
+}
+#subtitulo1{
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    transition: all 0.3s;
+    font-family: 'Titan One', cursive;
+}
+#subtitulo1:hover{
+    transform: scale(1.1);
+}
+
+.promocionales{
+    background-color: rgba(0, 0, 0, 0.781);
+    height: 20vh;
+    margin: 1%;
+    border-radius: 5%;
+    color: whitesmoke;
+}
+
+.destinos{
+    background-color: $fondo;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    background: radial-gradient(rgb(71, 71, 71), black);
+}
+.left{
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+.left:hover{
+    transform: scale(1.08);
+}
+.left.l1{
+    background-image: url(../img/playa_de_bahamas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+}
+.right{
+    padding: 0;
+}
+.right h3{
+    text-align: center;
+    font-size: small;
+    padding-top: 5px;
+    font-family: 'Pacifico', cursive;
+}
+.right p{
+    font-size: x-small;
+    margin: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.left.l2{
+    background-image: url(../img/playa_de_florianopolis.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+}
+.left.l3{
+    background-image: url(../img/playa_del_caribe.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+}
+
+/* Main */
+
+/* Footer */
+
+footer ul{
+    padding: 0px 12px 0px;
+}
+nav.sup{
+    padding: 0px 0px 0px 0px;
+}
+footer ul a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.6s;
+}
+footer ul li:hover{
+    transform: scale(1.08);
+}
+footer ul li{
+    display: inline-block;
+    font-size: x-small;
+}
+footer .copyright{
+    font-size: x-small;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+footer .contacto{
+    text-align: end;
+    padding-top: 5px;
+}
+footer i{
+    padding: 2%; 
+}
+/* Footer */
+/* ************ INDEX ***************** */
+
+/* **********************ARMÁ TU VIAJE************************** */
+.carousel-item{
+    max-height: 90vh;
+}
+.carousel-item h3{
+    font-family: 'Titan One', cursive;
+    text-shadow: 3px 5px 4px black;
+    font-size: 5vw;
+}
+#subtitulo2{
+    text-align: center;
+    margin: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 7vw;
+}
+#minititulo2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vw;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+.contenedor2{
+    background-color: $fondo;
+    border-radius: 15px;
+    background: radial-gradient(rgb(71, 71, 71), black);
+    margin-top: 1vw;
+}
+.continf{
+    padding: 5px;
+}
+.continf2{
+    color: whitesmoke;
+}
+.continf3{
+    color: whitesmoke;
+}
+.form-control{
+    margin-bottom: 3px;
+}
+.btn{
+    background-color: rgba(54, 115, 247, 0.459) !important;
+}
+
+#subtitulo3{
+    text-align: center;
+    margin: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 7vw;
+}
+.dest1{
+    background-image: url(../img/bariloche.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 3px black;
+    font-size: 7vh;
+    transition:all .5s ease-in-out;
+}
+.dest1:hover{
+        transform: scale(1.1);
+}
+.dest2{
+    background-image: url(../img/misiones.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 3px black;
+    font-size: 7vh;
+    transition:all .5s ease-in-out;
+}
+.dest2:hover{
+        transform: scale(1.1);
+}
+.dest3{
+    background-image: url(../img/mendoza.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 3px black;
+    font-size: 7vh;
+    transition:all .5s ease-in-out; 
+}
+.dest3:hover{
+    transform: scale(1.1);
+}
+.dest4{
+    background-image: url(../img/miami.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 3px black;
+    font-size: 7vh;
+    transition:all .5s ease-in-out;
+}
+.dest4:hover{
+    transform: scale(1.1);
+}
+.dest5{
+    background-image: url(../img/españa.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 3px black;
+    font-size: 7vh;
+    transition:all .5s ease-in-out;
+}
+.dest5:hover{
+    transform: scale(1.1);
+}
+.dest6{
+    background-image: url(../img/cordoba.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 3px black;
+    font-size: 7vh;
+    transition:all .5s ease-in-out; 
+}
+.dest6:hover{
+    transform: scale(1.1);
+}
+
+/* **********************ARMÁ TU VIAJE************************** */
+// ********************* PAQUETES EXLUSIVOS **********************
+.ofertas{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.article1{
+    background-image: url(../img/borabora.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 55vw;
+    border-radius: 5px;
+}
+.ofertas{
+    aside{
+        display: grid;
+        place-content: center;
+    }
+    h3{
+        font-family: 'Pacifico', cursive;
+        padding: 5%;
+        font-size: 4vw;
+    }
+    h4{
+        font-size: medium;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    p{
+        font-size: small;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
+.article2{
+    background-image: url(../img/paris.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 55vw;
+    border-radius: 5px;
+}
+.article3{
+    background-image: url(../img/miami.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 55vw;
+    border-radius: 5px;
+}
+.article4{
+    background-image: url(../img/australia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 55vw;
+    border-radius: 5px;
+}
+.mas_paquetes{
+    display: grid;
+    place-content: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    div{
+        text-align: center;
+        display: flex;
+        align-items: center ;
+        background-color: rgba(45, 85, 245, 0.821);
+        padding: 5px 5vw 0px 5vw;
+        border-radius: 25px;
+        font-family: 'Josefin Sans', sans-serif;
+        i{
+            margin-left: 20px;
+            font-size: x-large;
+        }
+    }
+}
+// ********************* PAQUETES EXLUSIVOS **********************
+
+// ******************** CONTACTO *************************
+.formulario1{
+    background-image: url(../img/avion_volando.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+}
+.tituloform2{
+    padding-top: 2vw;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    i{
+        font-size: x-large;
+    }
+    h3{
+        font-size: xx-large;
+    }
+}
+.formulario2{
+    .marginform{
+        margin-top: 10px;
+    }
+    .marginform2{
+        margin-top: 40px;
+        padding-left: 13px;
+    }
+    .whats{
+        padding-top: 30px;
+        text-align: right;
+        display: block;
+        font-size: xx-large;
+    }
+
+}
+// ******************** CONTACTO *************************
+
+// ******************* SOBRE NOSOTROS *********************
+.imagenes{
+        img{
+        width: 60%;
+        display: block;
+        }
+}
+.container1{
+    margin-top: 5vw;
+    text-align: center;
+    align-items: start;
+    img{
+        display: block;
+        margin: auto;
+        border-radius: 300px 190px 230px 200px;
+        transition:all .5s ease-in-out;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    h3{
+        margin-bottom: 5vw;
+        margin-top: 0px;
+        font-family: 'Pacifico', cursive;
+        font-size: xx-large;
+    }
+    p{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: x-large;
+    }
+    
+}
+.container2{
+    margin-top: 5vw;
+    text-align: center;
+    align-items: center;
+    img{
+        display: block;
+        margin: auto;
+        border-radius: 110px 280px 130px 200px;
+        transition:all .5s ease-in-out;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    h3{
+        font-family: 'Pacifico', cursive;
+        font-size: xx-large;
+    }
+    p{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: x-large;
+    }
+}
+.container3{
+    margin-top: 5vw;
+    text-align: center;
+    align-items: center;
+    img{
+        display: block;
+        margin: auto;
+        border-radius: 300px 180px 210px 135px;
+        transition:all .5s ease-in-out;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+    h3{
+        margin-bottom: 5vw;
+        margin-top: 0px;
+        font-family: 'Pacifico', cursive;
+        font-size: xx-large;
+    }
+    p{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: x-large;
+    }
+}
+// ******************* SOBRE NOSOTROS *********************
+
+
+/* Media queries */
+@media only screen and (min-width: 576px){
+    .navbar{
+        height: 70px;
+    }
+    .navbar img{
+        height: 60px;
+    }
+    ul li a{
+        color: black !important;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .jumbotron h1{
+        position: absolute;
+        z-index: 1;
+        margin: 15px;
+        padding: 15px;
+        color: whitesmoke;
+        font-family: 'Titan One', cursive;
+        font-size: 10vw;
+    }
+    #subtitulo1{
+        text-align: center;
+        padding: 15px;
+        margin: 0;
+        transition: all 0.6s;
+        font-family: 'Titan One', cursive;
+        font-size: 5vw;
+    }
+    .left.l1{
+        background-image: url(../img/playa_de_bahamas.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+    }
+    .right h3{
+        text-align: center;
+        font-size: small;
+        padding-top: 5px;
+        font-family: 'Pacifico', cursive;
+        font-size: 4vw;
+    }
+    .right p{
+        font-size: x-small;
+        margin-top: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2vw;
+    }
+    .left.l2{
+        background-image: url(../img/playa_de_florianopolis.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+    }
+    .left.l3{
+        background-image: url(../img/playa_del_caribe.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+    }   
+    footer ul a{
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5vw;
+    }
+    footer .copyright{
+        font-size: 1.5vw;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    footer .contacto{
+        text-align: end;
+        padding-top: 5px;
+        font-size: 2vw;
+    }    
+}
+
+@media only screen and (min-width: 768px){
+    .navbar img{
+        height: 5vw;
+    }
+    .destinos{
+        background-color: $fondo;
+        border-radius: 20px;
+        margin-bottom: 25px;
+        color: whitesmoke;
+        background: radial-gradient(rgb(71, 71, 71), black);
+    }
+    .left.l1{
+        height: 30vw;
+    }
+    .right p{
+        font-size: x-small;
+        margin-top: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2.5vw;
+    }
+    .left.l2{
+        height: 30vw;
+    }
+    .left.l3{
+        height: 30vw;
+    } 
+    footer ul li{
+        padding-right: 10px;
+        word-spacing: -5px;
+    } 
+    
+    // ************* PAQUETES EXCLUSIVOS ***************
+    .ofertas{
+        aside{
+            display: grid;
+            place-content: center;
+        }
+        h3{
+            font-family: 'Pacifico', cursive;
+            padding: 5%;
+            font-size: 4vw;
+        }
+        h4{
+            font-size: 2vw;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        p{
+            font-size: 1vw;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+    }
+    .article1{
+        background-image: url(../img/borabora.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 25vw;
+        border-radius: 5px;
+    }
+    .article2{
+        background-image: url(../img/paris.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 25vw;
+        border-radius: 5px;
+    }
+    .article3{
+        background-image: url(../img/miami.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 25vw;
+        border-radius: 5px;
+    }
+    .article4{
+        background-image: url(../img/australia.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 25vw;
+        border-radius: 5px;
+    }
+
+}
+// ************** SOBRE NOSOTROS *************************
+.container1{
+    h3{
+        font-size: 3vw;
+    }
+    p{
+        font-size: xx-large;
+    }
+}
+.container2{
+    h3{
+        font-size: 3vw;
+    }
+    p{
+        font-size: xx-large;
+    }
+}
+.container3{
+    h3{
+        font-size: 3vw;
+    }
+    p{
+        font-size: xx-large;
+    }
+}
+// ************* VARIABLES ****************
+$fondo: #1a1919ee;

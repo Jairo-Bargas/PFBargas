@@ -18,13 +18,13 @@ font-family: 'Titan One', cursive; */
     background-color: white !important;
     padding: 0 15px 0 15px;
     display: flex !important;
+    img{
+        height: 40px;
+    }
 }
 .navbar-collapse{
     display: flex;
     justify-content: end;
-}
-.navbar img{
-    height: 40px;
 }
 button{
     background-color: rgba(0, 0, 0, 0.815) !important;
@@ -46,22 +46,22 @@ main{
 .jumbotron{
     display: flex;
     position: relative;
-}
-.jumbotron h1{
-    position: absolute;
-    z-index: 1;
-    margin: 15px;
-    padding: 15px;
-    color: whitesmoke;
-    font-family: 'Titan One', cursive;
-}
-.jumbotron img{
-    width: 100%;
-    z-index: 2;
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    background: radial-gradient(rgba(46, 46, 46, 0.863), black);
+    h1{
+        position: absolute;
+        z-index: 1;
+        margin: 15px;
+        padding: 15px;
+        color: whitesmoke;
+        font-family: 'Titan One', cursive;
+    }
+    img{
+        width: 100%;
+        z-index: 2;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        background: radial-gradient(rgba(46, 46, 46, 0.863), black);
+    }
 }
 #subtitulo1{
     text-align: center;
@@ -81,7 +81,6 @@ main{
     border-radius: 5%;
     color: whitesmoke;
 }
-
 .destinos{
     background-color: $fondo;
     border-radius: 15px;
